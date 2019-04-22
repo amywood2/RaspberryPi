@@ -32,10 +32,10 @@ def on_message(client, userdata, message):
     if depth <= 50 :
         sense.clear(blue)
 
-    elif depth > 50 and depth <= 225 :
+    elif depth > 50 and depth <225 :
         sense.clear(green)
 
-    elif depth > 255 and depth <= 310 :
+    elif depth > 255 and depth <310 :
         sense.clear(red)
 
     else:
